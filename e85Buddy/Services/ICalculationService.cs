@@ -2,7 +2,8 @@
 namespace E85Buddy.Services
 {
     public interface ICalculationService
-    {
-        double TipAmount(double subTotal, int generosity);
+    { 
+        double GasCalc(double tankCapacity, double tankPercentage, double e85EthenolContent, double gasEthenolContent, double targetEthenolMix, double currentEthenolMix);
+        double EthCalc(double tankCapacity, double tankPercentage, double e85EthenolContent, double gasEthenolContent, double targetEthenolMix, double currentEthenolMix);
     }
 }

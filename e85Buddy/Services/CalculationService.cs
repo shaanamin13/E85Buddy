@@ -3,10 +3,17 @@ namespace E85Buddy.Services
 {
     public class CalculationService : ICalculationService
     {
-        public double TipAmount(double subTotal, int generosity) {
-            return subTotal * (((double)generosity) / 100.0);
-          }
+        public double EthCalc(double tankCapacity, double tankPercentage, double e85EthenolContent, double gasEthenolContent, double targetEthenolMix, double currentEthenolMix)
+        {
+            throw new NotImplementedException();
+        }
 
+        public double GasCalc(double tankCapacity, double tankPercentage, double e85EthenolContent, double gasEthenolContent, double targetEthenolMix, double currentEthenolMix)
+        {
+            throw new NotImplementedException();
+        }
+
+     
 
     }
 }

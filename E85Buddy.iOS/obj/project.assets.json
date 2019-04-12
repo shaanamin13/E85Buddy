@@ -31,6 +31,19 @@
         "runtime": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
+      },
+      "E85Buddy/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MvvmCross": "6.2.3"
+        },
+        "compile": {
+          "bin/placeholder/E85Buddy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/E85Buddy.dll": {}
+        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
@@ -62,6 +75,19 @@
         },
         "runtime": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "E85Buddy/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MvvmCross": "6.2.3"
+        },
+        "compile": {
+          "bin/placeholder/E85Buddy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/E85Buddy.dll": {}
         }
       }
     },
@@ -95,6 +121,19 @@
         "runtime": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
+      },
+      "E85Buddy/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MvvmCross": "6.2.3"
+        },
+        "compile": {
+          "bin/placeholder/E85Buddy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/E85Buddy.dll": {}
+        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
@@ -126,6 +165,19 @@
         },
         "runtime": {
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "E85Buddy/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MvvmCross": "6.2.3"
+        },
+        "compile": {
+          "bin/placeholder/E85Buddy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/E85Buddy.dll": {}
         }
       }
     }
@@ -251,10 +303,16 @@
         "xamarin.essentials.1.0.1.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
+    },
+    "E85Buddy/1.0.0": {
+      "type": "project",
+      "path": "../E85Buddy/E85Buddy.csproj",
+      "msbuildProject": "../E85Buddy/E85Buddy.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "E85Buddy >= 1.0.0",
       "MvvmCross >= 6.2.3",
       "Xamarin.Essentials >= 1.0.1"
     ]
@@ -265,11 +323,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shaan.amin/Projects/e85Buddy/E85Buddy.iOS/E85Buddy.iOS.csproj",
+      "projectUniqueName": "/Users/shaan.amin/Documents/E85Buddy/E85Buddy.iOS/E85Buddy.iOS.csproj",
       "projectName": "E85Buddy.iOS",
-      "projectPath": "/Users/shaan.amin/Projects/e85Buddy/E85Buddy.iOS/E85Buddy.iOS.csproj",
+      "projectPath": "/Users/shaan.amin/Documents/E85Buddy/E85Buddy.iOS/E85Buddy.iOS.csproj",
       "packagesPath": "/Users/shaan.amin/.nuget/packages/",
-      "outputPath": "/Users/shaan.amin/Projects/e85Buddy/E85Buddy.iOS/obj/",
+      "outputPath": "/Users/shaan.amin/Documents/E85Buddy/E85Buddy.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -283,7 +341,11 @@
       },
       "frameworks": {
         "xamarinios10": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/shaan.amin/Documents/E85Buddy/E85Buddy/E85Buddy.csproj": {
+              "projectPath": "/Users/shaan.amin/Documents/E85Buddy/E85Buddy/E85Buddy.csproj"
+            }
+          }
         }
       }
     },

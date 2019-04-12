@@ -237,11 +237,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shaan.amin/Projects/e85Buddy/E85Buddy/E85Buddy.csproj",
+      "projectUniqueName": "/Users/shaan.amin/Documents/E85Buddy/E85Buddy/E85Buddy.csproj",
       "projectName": "E85Buddy",
-      "projectPath": "/Users/shaan.amin/Projects/e85Buddy/E85Buddy/E85Buddy.csproj",
+      "projectPath": "/Users/shaan.amin/Documents/E85Buddy/E85Buddy/E85Buddy.csproj",
       "packagesPath": "/Users/shaan.amin/.nuget/packages/",
-      "outputPath": "/Users/shaan.amin/Projects/e85Buddy/E85Buddy/obj/",
+      "outputPath": "/Users/shaan.amin/Documents/E85Buddy/E85Buddy/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

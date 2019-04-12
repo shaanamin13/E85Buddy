@@ -20,6 +20,11 @@ namespace E85Buddy.ViewModels
 
             _tankCapacity = 16;
             _tankPercentage = 10;
+            _e85EthenolContent = 20;
+            _gasEthenolContent = 10;
+            _targetEthenolMix = 10;
+            _currentEthenolMix = 10;
+
 
 
             Recalculate();
@@ -79,6 +84,60 @@ namespace E85Buddy.ViewModels
 
         }
 
+        private double _targetEthenolMix;
+        public double TargetEthenolMix
+        {
+            get => _targetEthenolMix;
+            set
+            {
+                _targetEthenolMix = value;
+                RaisePropertyChanged(() => TargetEthenolMix);
+                Recalculate();
+            }
+
+        }
+
+        private double _currentEthenolMix;
+        public double CurrentEthenolMix
+        {
+            get => _currentEthenolMix;
+            set
+            {
+                _currentEthenolMix = value;
+                RaisePropertyChanged(() => CurrentEthenolMix);
+                Recalculate();
+            }
+
+        }
+
+
+        private double _gasToAdd;
+        public double GasToAdd
+        {
+            get => _gasToAdd;
+            set
+            {
+                _gasToAdd = value;
+                RaisePropertyChanged(() => GasToAdd);
+                Recalculate();
+            }
+        }
+
+        private double _ethenolToAdd;
+        public double EthenolToAdd
+        {
+            get => _ethenolToAdd;
+            set
+            {
+                _ethenolToAdd = value;
+                RaisePropertyChanged(() => EthenolToAdd);
+                Recalculate();
+            }
+        }
+
+
+
+
         //private double _subTotal;
         //public double SubTotal
         //{
@@ -116,7 +175,10 @@ namespace E85Buddy.ViewModels
 
         private void Recalculate()
         {
-            Tip = _calculationService.TipAmount(SubTotal, Generosity);
+           
+            GasToAdd = _calculationService.GasCalc(_tankCapacity,_tankPercentage,_e85EthenolContent,_gasEthenolContent, _targetEthenolMix, _currentEthenolMix);
+            EthenolToAdd = _calculationService.EthCalc(_tankCapacity, _tankPercentage, _e85EthenolContent, _gasEthenolContent, _targetEthenolMix, _currentEthenolMix);
+
         }
     }
 }
