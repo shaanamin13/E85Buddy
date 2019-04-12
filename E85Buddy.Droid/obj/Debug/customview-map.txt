@@ -1,0 +1,13 @@
+attr;/Users/shaan.amin/Projects/e85Buddy/E85Buddy.Droid/obj/Debug/lp/1/jl/res/values/mvxbindingattributes.xml
+declare-styleable;/Users/shaan.amin/Projects/e85Buddy/E85Buddy.Droid/obj/Debug/lp/1/jl/res/values/mvxbindingattributes.xml
+EditText;obj/Debug/res/layout/e85calcview.xml
+item;/Users/shaan.amin/Projects/e85Buddy/E85Buddy.Droid/obj/Debug/lp/1/jl/res/values/ids.xml
+item;/Users/shaan.amin/Projects/e85Buddy/E85Buddy.Droid/obj/Debug/lp/1/jl/res/values/mvxbindingattributes.xml
+LinearLayout;obj/Debug/res/layout/e85calcview.xml
+resources;/Users/shaan.amin/Projects/e85Buddy/E85Buddy.Droid/obj/Debug/lp/1/jl/res/values/ids.xml
+resources;/Users/shaan.amin/Projects/e85Buddy/E85Buddy.Droid/obj/Debug/lp/1/jl/res/values/mvxbindingattributes.xml
+resources;obj/Debug/res/values/strings.xml
+SeekBar;obj/Debug/res/layout/e85calcview.xml
+string;obj/Debug/res/values/strings.xml
+TextView;obj/Debug/res/layout/e85calcview.xml
+View;obj/Debug/res/layout/e85calcview.xml

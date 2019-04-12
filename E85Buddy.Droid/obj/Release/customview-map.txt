@@ -1,0 +1,5 @@
+EditText;obj/Release/res/layout/e85calcview.xml
+LinearLayout;obj/Release/res/layout/e85calcview.xml
+SeekBar;obj/Release/res/layout/e85calcview.xml
+TextView;obj/Release/res/layout/e85calcview.xml
+View;obj/Release/res/layout/e85calcview.xml

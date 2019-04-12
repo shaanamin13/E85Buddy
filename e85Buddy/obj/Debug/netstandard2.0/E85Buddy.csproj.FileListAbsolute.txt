@@ -1,0 +1,9 @@
+/Users/shaan.amin/Projects/e85Buddy/E85Buddy/bin/Debug/netstandard2.0/E85Buddy.deps.json
+/Users/shaan.amin/Projects/e85Buddy/e85Buddy/bin/Debug/netstandard2.0/E85Buddy.dll
+/Users/shaan.amin/Projects/e85Buddy/e85Buddy/bin/Debug/netstandard2.0/E85Buddy.pdb
+/Users/shaan.amin/Projects/e85Buddy/e85Buddy/obj/Debug/netstandard2.0/E85Buddy.csproj.CoreCompileInputs.cache
+/Users/shaan.amin/Projects/e85Buddy/e85Buddy/obj/Debug/netstandard2.0/E85Buddy.AssemblyInfoInputs.cache
+/Users/shaan.amin/Projects/e85Buddy/e85Buddy/obj/Debug/netstandard2.0/E85Buddy.AssemblyInfo.cs
+/Users/shaan.amin/Projects/e85Buddy/e85Buddy/obj/Debug/netstandard2.0/E85Buddy.dll
+/Users/shaan.amin/Projects/e85Buddy/e85Buddy/obj/Debug/netstandard2.0/E85Buddy.pdb
+/Users/shaan.amin/Projects/e85Buddy/e85Buddy/obj/Debug/netstandard2.0/E85Buddy.csprojAssemblyReference.cache
