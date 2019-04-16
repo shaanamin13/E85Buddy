@@ -1,4 +1,4 @@
-/Users/shaan.amin/Projects/e85Buddy/E85Buddy.iOS/bin/iPhoneSimulator/Debug/E85Buddy.iOS.exe
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.iOS/bin/iPhoneSimulator/Debug/E85Buddy.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mono/Xamarin.iOS/System.dll
@@ -7,7 +7,7 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mono/Xamarin.iOS/System.Core.dll
 /Users/shaan.amin/.nuget/packages/mvvmcross/6.2.3/lib/xamarinios10/MvvmCross.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll
-/Users/shaan.amin/Projects/e85Buddy/e85Buddy/bin/Debug/netstandard2.0/E85Buddy.dll
+/Users/shaan.amin/Documents/E85Buddy/e85Buddy/bin/Debug/netstandard2.0/E85Buddy.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mono/Xamarin.iOS/Facades/netstandard.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mono/Xamarin.iOS/System.Data.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mono/Xamarin.iOS/System.Numerics.dll

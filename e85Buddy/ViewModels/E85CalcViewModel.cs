@@ -44,8 +44,8 @@ namespace E85Buddy.ViewModels
 
         }
 
-        private double _tankPercentage;
-        public double TankPercentage
+        private int _tankPercentage;
+        public int TankPercentage
         {
             get => _tankPercentage;
             set
@@ -57,8 +57,8 @@ namespace E85Buddy.ViewModels
 
         }
 
-        private double _e85EthenolContent;
-        public double E85EthenolContent
+        private int _e85EthenolContent;
+        public int E85EthenolContent
         {
             get => _e85EthenolContent;
             set
@@ -71,8 +71,8 @@ namespace E85Buddy.ViewModels
         }
 
 
-        private double _gasEthenolContent;
-        public double GasEthenolContent
+        private int _gasEthenolContent;
+        public int GasEthenolContent
         {
             get => _gasEthenolContent;
             set
@@ -131,52 +131,15 @@ namespace E85Buddy.ViewModels
             {
                 _ethenolToAdd = value;
                 RaisePropertyChanged(() => EthenolToAdd);
-                Recalculate();
+               // Recalculate();
             }
         }
 
 
-
-
-        //private double _subTotal;
-        //public double SubTotal
-        //{
-        //    get => _subTotal;
-        //    set
-        //    {
-        //        _subTotal = value;
-        //        RaisePropertyChanged(() => SubTotal);
-        //        Recalculate();
-        //    }
-        //}
-
-        //private int _generosity;
-        //public int Generosity
-        //{
-        //    get => _generosity;
-        //    set
-        //    {
-        //        _generosity = value;
-        //        RaisePropertyChanged(() => Generosity);
-        //        Recalculate();
-        //    }
-        //}
-
-        //private double _tip;
-        //public double Tip
-        //{
-        //    get => _tip;
-        //    set
-        //    {
-        //        _tip = value;
-        //        RaisePropertyChanged(() => Tip);
-        //    }
-        //}
-
         private void Recalculate()
         {
            
-            GasToAdd = _calculationService.GasCalc(_tankCapacity,_tankPercentage,_e85EthenolContent,_gasEthenolContent, _targetEthenolMix, _currentEthenolMix);
+            //GasToAdd = _calculationService.GasCalc(_tankCapacity,_tankPercentage,_e85EthenolContent,_gasEthenolContent, _targetEthenolMix, _currentEthenolMix);
             EthenolToAdd = _calculationService.EthCalc(_tankCapacity, _tankPercentage, _e85EthenolContent, _gasEthenolContent, _targetEthenolMix, _currentEthenolMix);
 
         }

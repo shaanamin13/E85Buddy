@@ -1,4 +1,5 @@
 ﻿using System;
+using E85Buddy;
 using E85Buddy.ViewModels;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Platforms.Ios.Views;
@@ -18,9 +19,9 @@ namespace E85Buddy.iOS.Views
 
 
             var set = this.CreateBindingSet<E85CalcVIew, E85CalcViewModel>();
-            set.Bind(TipLabel).To(vm => vm.Tip);
-            set.Bind(SubTotalTextField).To(vm => vm.SubTotal);
-            set.Bind(GenerositySlider).To(vm => vm.Generosity);
+            set.Bind(TipLabel).To(vm => vm.E85EthenolContent);
+            set.Bind(SubTotalTextField).To(vm => vm.E85EthenolContent);
+            set.Bind(GenerositySlider).To(vm => vm.E85EthenolContent);
             set.Apply();
 
             // this is optional. What this code does is to close the keyboard whenever you 

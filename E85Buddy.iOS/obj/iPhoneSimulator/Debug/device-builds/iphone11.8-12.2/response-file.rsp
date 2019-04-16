@@ -1,5 +1,5 @@
---cache=/Users/shaan.amin/Projects/e85Buddy/E85Buddy.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache
---sim=/Users/shaan.amin/Projects/e85Buddy/E85Buddy.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/E85Buddy.iOS.app
+--cache=/Users/shaan.amin/Documents/E85Buddy/E85Buddy.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache
+--sim=/Users/shaan.amin/Documents/E85Buddy/E85Buddy.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/E85Buddy.iOS.app
 --executable=E85Buddy.iOS
 --debug
 --sgen-conc
@@ -10,9 +10,9 @@
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=x86_64
---symbollist=/Users/shaan.amin/Projects/e85Buddy/E85Buddy.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-symbols.list
+--symbollist=/Users/shaan.amin/Documents/E85Buddy/E85Buddy.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-symbols.list
 --dsym=no
--r=/Users/shaan.amin/Projects/e85Buddy/E85Buddy/bin/Debug/netstandard2.0/E85Buddy.dll
+-r=/Users/shaan.amin/Documents/E85Buddy/E85Buddy/bin/Debug/netstandard2.0/E85Buddy.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
@@ -165,7 +165,7 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
 -r=/Users/shaan.amin/.nuget/packages/mvvmcross/6.2.3/lib/xamarinios10/MvvmCross.dll
 -r=/Users/shaan.amin/.nuget/packages/xamarin.essentials/1.0.1/lib/xamarinios10/Xamarin.Essentials.dll
--r=/Users/shaan.amin/Projects/e85Buddy/E85Buddy/bin/Debug/netstandard2.0/E85Buddy.dll
+-r=/Users/shaan.amin/Documents/E85Buddy/E85Buddy/bin/Debug/netstandard2.0/E85Buddy.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/shaan.amin/Projects/e85Buddy/E85Buddy.iOS/bin/iPhoneSimulator/Debug/E85Buddy.iOS.exe
+--root-assembly=/Users/shaan.amin/Documents/E85Buddy/E85Buddy.iOS/bin/iPhoneSimulator/Debug/E85Buddy.iOS.exe
 

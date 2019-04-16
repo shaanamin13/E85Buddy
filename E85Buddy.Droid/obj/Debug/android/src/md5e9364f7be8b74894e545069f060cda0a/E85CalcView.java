@@ -2,7 +2,7 @@ package md5e9364f7be8b74894e545069f060cda0a;
 
 
 public class E85CalcView
-	extends android.app.Activity
+	extends md5231beb04e46a1dc811e36737109a7a02.MvxActivity_1
 	implements
 		mono.android.IGCUserPeer
 {

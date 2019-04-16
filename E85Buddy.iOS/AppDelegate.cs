@@ -14,7 +14,7 @@ namespace E85Buddy.iOS
         // FinishedLaunching is the very first code to be executed in your app. Don't forget to call base!
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
-            var result = base.FinishedLaunching(application, launchOptions);
+            bool result = base.FinishedLaunching(application, launchOptions);
 
             return result;
         }
