@@ -22,7 +22,7 @@ namespace E85Buddy.ViewModels
             _tankPercentage = 10;
             _e85EthenolContent = 20;
             _gasEthenolContent = 10;
-            _targetEthenolMix = 10;
+            _targetEthenolMix = 30;
             _currentEthenolMix = 10;
 
 
