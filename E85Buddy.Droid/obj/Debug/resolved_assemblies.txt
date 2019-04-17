@@ -5,6 +5,10 @@
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/Mono.Android.Export.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/mscorlib.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.Core.UI.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.Design.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.Fragment.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.V7.AppCompat.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.Core.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.Numerics.dll

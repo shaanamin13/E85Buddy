@@ -1,32 +1,38 @@
-﻿<Properties StartupConfiguration="{20BCD2C0-9905-41D2-BFA1-63E65EB623B0}|Default">
+﻿<Properties StartupConfiguration="{D450B372-A783-4B9F-8B7C-CCD3582FC281}|Default">
   <MonoDevelop.Ide.ItemProperties.E85Buddy.Core.Tests FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="e85Buddy/Services/CalculationService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="E85Buddy.Droid/Views/E85CalcView.cs">
     <Files>
-      <File FileName="E85Buddy/Services/CalculationService.cs" Line="6" Column="1" />
+      <File FileName="E85Buddy.Droid/Views/E85CalcView.cs" Line="19" Column="18" />
+      <File FileName="E85Buddy.iOS/Views/E85CalcVIew.designer.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="E85Buddy" expanded="True">
             <Node name="E85Buddy" expanded="True">
-              <Node name="Services" expanded="True">
-                <Node name="CalculationService.cs" selected="True" />
-              </Node>
-              <Node name="ViewModels" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
-            <Node name="E85Buddy.Core.Tests" expanded="True" />
             <Node name="E85Buddy.Droid" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True">
-                <Node name="layout" expanded="True" />
+                <Node name="values" expanded="True" />
               </Node>
-              <Node name="Views" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="E85CalcView.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="E85Buddy.iOS" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="E85CalcVIew.cs" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.E85Buddy.Droid AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.ItemProperties.E85Buddy.Droid AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.8699255b" />
   <MonoDevelop.Ide.ItemProperties.E85Buddy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0215466D-1134-4DC6-B41E-9993AA4ACE42" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

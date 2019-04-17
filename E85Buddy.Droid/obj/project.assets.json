@@ -14,6 +14,79 @@
           "lib/monoandroid81/MvvmCross.dll": {}
         }
       },
+      "MvvmCross.Droid.Support.Core.UI/6.2.3": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "6.2.3",
+          "Xamarin.Android.Support.Core.UI": "27.0.2.1",
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid81/MvvmCross.Droid.Support.Core.UI.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/MvvmCross.Droid.Support.Core.UI.dll": {}
+        }
+      },
+      "MvvmCross.Droid.Support.Design/6.2.3": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "6.2.3",
+          "MvvmCross.Droid.Support.Fragment": "6.2.3",
+          "Xamarin.Android.Support.Design": "27.0.2.1",
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid81/MvvmCross.Droid.Support.Design.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/MvvmCross.Droid.Support.Design.dll": {}
+        }
+      },
+      "MvvmCross.Droid.Support.Fragment/6.2.3": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "6.2.3",
+          "Xamarin.Android.Support.Fragment": "27.0.2.1",
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid81/MvvmCross.Droid.Support.Fragment.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/MvvmCross.Droid.Support.Fragment.dll": {}
+        }
+      },
+      "MvvmCross.Droid.Support.V7.AppCompat/6.2.3": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross": "6.2.3",
+          "MvvmCross.Droid.Support.Core.UI": "6.2.3",
+          "MvvmCross.Droid.Support.Design": "6.2.3",
+          "MvvmCross.Droid.Support.Fragment": "6.2.3",
+          "Xamarin.Android.Support.Design": "27.0.2.1",
+          "Xamarin.Android.Support.V7.AppCompat": "27.0.2.1",
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid81/MvvmCross.Droid.Support.V7.AppCompat.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/MvvmCross.Droid.Support.V7.AppCompat.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -283,6 +356,12 @@
           "build/monoandroid81/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
       },
+      "Xamarin.Build.Download/0.4.11": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Xamarin.Essentials/1.0.1": {
         "type": "package",
         "dependencies": {
@@ -358,6 +437,58 @@
         "mvvmcross.6.2.3.nupkg.sha512",
         "mvvmcross.nuspec",
         "readme.txt"
+      ]
+    },
+    "MvvmCross.Droid.Support.Core.UI/6.2.3": {
+      "sha512": "Ad+whDNlJzoqyLigEFeaI0+RXa0WhQ7YMl6LtZplTBQ5oi+fLtS3HrXR6slJXG0IrDdKQqLkIBYqul2ZbPoNxg==",
+      "type": "package",
+      "path": "mvvmcross.droid.support.core.ui/6.2.3",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid81/MvvmCross.Droid.Support.Core.UI.dll",
+        "lib/monoandroid81/MvvmCross.Droid.Support.Core.UI.pdb",
+        "lib/monoandroid81/MvvmCross.Droid.Support.Core.UI.xml",
+        "mvvmcross.droid.support.core.ui.6.2.3.nupkg.sha512",
+        "mvvmcross.droid.support.core.ui.nuspec"
+      ]
+    },
+    "MvvmCross.Droid.Support.Design/6.2.3": {
+      "sha512": "MJVLWOaDLpR6YBF26hjD9I9+lihjH7f3dTYn+tBkoZn2x5dLVD5hstNdYasDCThUJ8aaoo89Ml4TK7WG5Smzng==",
+      "type": "package",
+      "path": "mvvmcross.droid.support.design/6.2.3",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid81/MvvmCross.Droid.Support.Design.dll",
+        "lib/monoandroid81/MvvmCross.Droid.Support.Design.pdb",
+        "lib/monoandroid81/MvvmCross.Droid.Support.Design.xml",
+        "mvvmcross.droid.support.design.6.2.3.nupkg.sha512",
+        "mvvmcross.droid.support.design.nuspec"
+      ]
+    },
+    "MvvmCross.Droid.Support.Fragment/6.2.3": {
+      "sha512": "cZKr/kkZn5ykAtWjYHtZWQ8TdYF4GS5s6lRtQ1RjgAhKMU/RNccnr2U6B2j1IF+p8CUfeI8+3smK7T1cO++Ofg==",
+      "type": "package",
+      "path": "mvvmcross.droid.support.fragment/6.2.3",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid81/MvvmCross.Droid.Support.Fragment.dll",
+        "lib/monoandroid81/MvvmCross.Droid.Support.Fragment.pdb",
+        "lib/monoandroid81/MvvmCross.Droid.Support.Fragment.xml",
+        "mvvmcross.droid.support.fragment.6.2.3.nupkg.sha512",
+        "mvvmcross.droid.support.fragment.nuspec"
+      ]
+    },
+    "MvvmCross.Droid.Support.V7.AppCompat/6.2.3": {
+      "sha512": "5xZIty8URSvU3uFagiHhlbE5l7oVOlfAeEUtCrvswRYb69PKoaqG6U1KqvjcPo+LsS4MqkWHVC3Dq7xAQAmn0w==",
+      "type": "package",
+      "path": "mvvmcross.droid.support.v7.appcompat/6.2.3",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid81/MvvmCross.Droid.Support.V7.AppCompat.dll",
+        "lib/monoandroid81/MvvmCross.Droid.Support.V7.AppCompat.pdb",
+        "lib/monoandroid81/MvvmCross.Droid.Support.V7.AppCompat.xml",
+        "mvvmcross.droid.support.v7.appcompat.6.2.3.nupkg.sha512",
+        "mvvmcross.droid.support.v7.appcompat.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -748,6 +879,23 @@
         "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
+    "Xamarin.Build.Download/0.4.11": {
+      "sha512": "ujbXg6i04WGkDL/LkDanVkFmydJLNQav1lUz8ryxzKGVpiT5SSNXDwfYnGGYzkvAryz1S0gnIMtQrdKaxfHIXA==",
+      "type": "package",
+      "path": "xamarin.build.download/0.4.11",
+      "files": [
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/Mono.Cecil.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/System.Net.Http.Formatting.dll",
+        "build/Xamarin.Build.Download.dll",
+        "build/Xamarin.Build.Download.props",
+        "build/Xamarin.Build.Download.targets",
+        "xamarin.build.download.0.4.11.nupkg.sha512",
+        "xamarin.build.download.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.0.1": {
       "sha512": "TUsMSXqdLEZlx0O3EcWMwOF5e8X3Gh0GX28FlH3q8iyKAQBYd8tV+Ja7tHMplf7D8V4NVCG9ELqx2nk/jPWPew==",
       "type": "package",
@@ -791,6 +939,9 @@
     "MonoAndroid,Version=v8.1": [
       "E85Buddy >= 1.0.0",
       "MvvmCross >= 6.2.3",
+      "MvvmCross.Droid.Support.Core.UI >= 6.2.3",
+      "MvvmCross.Droid.Support.Fragment >= 6.2.3",
+      "MvvmCross.Droid.Support.V7.AppCompat >= 6.2.3",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.1",
       "Xamarin.Android.Support.CustomTabs >= 28.0.0.1",
       "Xamarin.Android.Support.Design >= 28.0.0.1",
@@ -833,6 +984,18 @@
       "monoandroid81": {
         "dependencies": {
           "MvvmCross": {
+            "target": "Package",
+            "version": "[6.2.3, )"
+          },
+          "MvvmCross.Droid.Support.Core.UI": {
+            "target": "Package",
+            "version": "[6.2.3, )"
+          },
+          "MvvmCross.Droid.Support.Fragment": {
+            "target": "Package",
+            "version": "[6.2.3, )"
+          },
+          "MvvmCross.Droid.Support.V7.AppCompat": {
             "target": "Package",
             "version": "[6.2.3, )"
           },

@@ -6,6 +6,10 @@
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/bin/Debug/Mono.Android.pdb
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/bin/Debug/Mono.Android.Export.pdb
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/bin/Debug/MvvmCross.pdb
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/bin/Debug/MvvmCross.Droid.Support.Core.UI.pdb
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/bin/Debug/MvvmCross.Droid.Support.Design.pdb
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/bin/Debug/MvvmCross.Droid.Support.Fragment.pdb
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/bin/Debug/MvvmCross.Droid.Support.V7.AppCompat.pdb
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/bin/Debug/Xamarin.Essentials.dll.mdb
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/bin/Debug/E85Buddy.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/MonoAndroid,Version=v8.1.AssemblyAttributes.cs
@@ -53,6 +57,10 @@
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/Mono.Android.Export.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/mscorlib.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/MvvmCross.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/MvvmCross.Droid.Support.Core.UI.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/MvvmCross.Droid.Support.Design.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/MvvmCross.Droid.Support.Fragment.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/MvvmCross.Droid.Support.V7.AppCompat.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/System.Core.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/System.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/System.Numerics.dll
@@ -93,6 +101,10 @@
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/Mono.Android.pdb
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/Mono.Android.Export.pdb
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/MvvmCross.pdb
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/MvvmCross.Droid.Support.Core.UI.pdb
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/MvvmCross.Droid.Support.Design.pdb
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/MvvmCross.Droid.Support.Fragment.pdb
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/MvvmCross.Droid.Support.V7.AppCompat.pdb
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/linksrc/Xamarin.Essentials.dll.mdb
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/link.flag
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/E85Buddy.dll
@@ -108,6 +120,14 @@
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/Mono.Security.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/mscorlib.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.Core.UI.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.Core.UI.pdb
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.Design.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.Design.pdb
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.Fragment.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.Fragment.pdb
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.V7.AppCompat.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.V7.AppCompat.pdb
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.pdb
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/netstandard.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.ComponentModel.Composition.dll
@@ -150,6 +170,5 @@
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/stamp/_CopyPdbFiles.stamp
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/machine.config
-/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.Runtime.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/stamp/_CompileToDalvik.stamp
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/stamp/_GeneratePackageManagerJava.stamp

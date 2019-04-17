@@ -27,7 +27,7 @@ namespace E85Buddy.ViewModels
 
 
 
-            Recalculate();
+            //Recalculate();
         }
 
 

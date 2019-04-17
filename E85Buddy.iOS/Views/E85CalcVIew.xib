@@ -9,8 +9,13 @@
             <connections>
                 <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
                 <outlet property="TipLabel" destination="147" id="name-outlet-147"/>
-                <outlet property="SubTotalTextField" destination="148" id="name-outlet-148"/>
-                <outlet property="GenerositySlider" destination="150" id="name-outlet-150"/>
+                <outlet property="TankCapacityField" destination="148" id="name-outlet-148"/>
+                <outlet property="TankPercentage" destination="150" id="name-outlet-150"/>
+                <outlet property="E85Content" destination="300" id="name-outlet-300"/>
+                <outlet property="GasE85Content" destination="302" id="name-outlet-302"/>
+                <outlet property="TargetEthenol" destination="305" id="name-outlet-305"/>
+                <outlet property="CurrentEthenol" destination="306" id="name-outlet-306"/>
+                <outlet property="EthenolNeeded" destination="308" id="name-outlet-308"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -19,28 +24,28 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SubTotal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="145" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tank Capacity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="145" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                     <rect key="frame" x="49" y="56" width="203" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Generosity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="146" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                    <rect key="frame" x="49" y="199" width="258" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tank Percentage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="146" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="49" y="158" width="258" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="147" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                    <rect key="frame" x="49" y="486" width="179" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ethanol Mix Needed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="147" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="49" y="570" width="179" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text" borderStyle="roundedRect" minimumFontSize="17" id="148" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="16" borderStyle="roundedRect" minimumFontSize="17" id="148" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                     <rect key="frame" x="49" y="111" width="217" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <nil key="textColor"/>
@@ -48,9 +53,66 @@
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="0.0" maxValue="100" id="150" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                    <rect key="frame" x="49" y="269" width="266" height="31"/>
+                    <rect key="frame" x="49" y="187" width="266" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E85 Ethanol Content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="299" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="49" y="233" width="258" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="0.0" maxValue="100" id="300" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="49" y="268" width="266" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gas Ethanol Content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="301" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="49" y="319" width="258" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="0.0" maxValue="100" id="302" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="45" y="352" width="266" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Target Ethenol Mix" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="303" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="49" y="403" width="258" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="E30" borderStyle="roundedRect" minimumFontSize="17" id="305" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="49" y="428" width="217" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="E10" borderStyle="roundedRect" minimumFontSize="17" id="306" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="49" y="501" width="217" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Ethenol Mix" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="307" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="49" y="472" width="258" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="308" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="49" y="615" width="150" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22" weight="heavy"/>
+                    <color key="textColor" colorSpace="custom" customColorSpace="sRGB" red="0.0100657857509461" green="1" blue="0" alpha="1"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
         </view>
     </objects>

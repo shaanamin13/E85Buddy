@@ -16,11 +16,31 @@ namespace E85Buddy.iOS.Views
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UISlider GenerositySlider { get; set; }
+        UIKit.UITextField CurrentEthenol { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITextField SubTotalTextField { get; set; }
+        UIKit.UISlider E85Content { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel EthenolNeeded { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UISlider GasE85Content { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField TankCapacityField { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UISlider TankPercentage { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField TargetEthenol { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -28,14 +48,39 @@ namespace E85Buddy.iOS.Views
 
         void ReleaseDesignerOutlets ()
         {
-            if (GenerositySlider != null) {
-                GenerositySlider.Dispose ();
-                GenerositySlider = null;
+            if (CurrentEthenol != null) {
+                CurrentEthenol.Dispose ();
+                CurrentEthenol = null;
             }
 
-            if (SubTotalTextField != null) {
-                SubTotalTextField.Dispose ();
-                SubTotalTextField = null;
+            if (E85Content != null) {
+                E85Content.Dispose ();
+                E85Content = null;
+            }
+
+            if (EthenolNeeded != null) {
+                EthenolNeeded.Dispose ();
+                EthenolNeeded = null;
+            }
+
+            if (GasE85Content != null) {
+                GasE85Content.Dispose ();
+                GasE85Content = null;
+            }
+
+            if (TankCapacityField != null) {
+                TankCapacityField.Dispose ();
+                TankCapacityField = null;
+            }
+
+            if (TankPercentage != null) {
+                TankPercentage.Dispose ();
+                TankPercentage = null;
+            }
+
+            if (TargetEthenol != null) {
+                TargetEthenol.Dispose ();
+                TargetEthenol = null;
             }
 
             if (TipLabel != null) {

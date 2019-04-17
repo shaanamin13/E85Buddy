@@ -19,16 +19,21 @@ namespace E85Buddy.iOS.Views
 
 
             var set = this.CreateBindingSet<E85CalcVIew, E85CalcViewModel>();
-            set.Bind(TipLabel).To(vm => vm.E85EthenolContent);
-            set.Bind(SubTotalTextField).To(vm => vm.E85EthenolContent);
-            set.Bind(GenerositySlider).To(vm => vm.E85EthenolContent);
+            set.Bind(TankCapacityField).To(vm => vm.TankCapacity);
+            set.Bind(TankPercentage).To(vm => vm.TankPercentage);
+            set.Bind(E85Content).To(vm => vm.E85EthenolContent);
+
+            set.Bind(GasE85Content).To(vm => vm.GasEthenolContent);
+            set.Bind(TargetEthenol).To(vm => vm.TargetEthenolMix);
+            set.Bind(CurrentEthenol).To(vm => vm.CurrentEthenolMix);
+            set.Bind(EthenolNeeded).To(vm => vm.EthenolToAdd);
             set.Apply();
 
             // this is optional. What this code does is to close the keyboard whenever you 
             // tap on the screen, outside the bounds of the TextField
             View.AddGestureRecognizer(new UITapGestureRecognizer(() =>
             {
-                this.SubTotalTextField.ResignFirstResponder();
+                this.TankCapacityField.ResignFirstResponder();
             }));
         }
 
