@@ -27,6 +27,9 @@ namespace E85Buddy.iOS.Views
             set.Bind(TargetEthenol).To(vm => vm.TargetEthenolMix);
             set.Bind(CurrentEthenol).To(vm => vm.CurrentEthenolMix);
             set.Bind(EthenolNeeded).To(vm => vm.EthenolToAdd);
+            set.Bind(TPtext).To(vm => vm.TankPercentage);
+            set.Bind(E85ECText).To(vm => vm.E85EthenolContent);
+            set.Bind(GasECText).To(vm => vm.GasEthenolContent);
             set.Apply();
 
             // this is optional. What this code does is to close the keyboard whenever you 

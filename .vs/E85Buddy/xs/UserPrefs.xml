@@ -1,9 +1,13 @@
 ﻿<Properties StartupConfiguration="{D450B372-A783-4B9F-8B7C-CCD3582FC281}|Default">
   <MonoDevelop.Ide.ItemProperties.E85Buddy.Core.Tests FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="E85Buddy.Droid/Views/E85CalcView.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="E85Buddy.iOS/Views/E85CalcVIew.xib">
     <Files>
       <File FileName="E85Buddy.Droid/Views/E85CalcView.cs" Line="19" Column="18" />
+      <File FileName="E85Buddy.iOS/Views/E85CalcVIew.cs" Line="29" Column="61" />
+      <File FileName="E85Buddy/Services/ICalculationService.cs" Line="7" Column="71" />
+      <File FileName="E85Buddy.iOS/Views/E85CalcVIew.xib" />
       <File FileName="E85Buddy.iOS/Views/E85CalcVIew.designer.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="E85Buddy/Services/CalculationService.cs" Line="43" Column="36" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,18 +17,12 @@
               <Node name="Services" expanded="True" />
             </Node>
             <Node name="E85Buddy.Droid" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="values" expanded="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="E85CalcView.cs" selected="True" />
-              </Node>
+              <Node name="Views" expanded="True" />
             </Node>
             <Node name="E85Buddy.iOS" expanded="True">
               <Node name="Views" expanded="True">
                 <Node name="E85CalcVIew.cs" expanded="True" />
+                <Node name="E85CalcVIew.xib" selected="True" />
               </Node>
             </Node>
           </Node>

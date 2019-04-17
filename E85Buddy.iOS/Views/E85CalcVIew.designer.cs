@@ -24,11 +24,19 @@ namespace E85Buddy.iOS.Views
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField E85ECText { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel EthenolNeeded { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UISlider GasE85Content { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField GasECText { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -46,6 +54,10 @@ namespace E85Buddy.iOS.Views
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel TipLabel { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField TPtext { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
             if (CurrentEthenol != null) {
@@ -58,6 +70,11 @@ namespace E85Buddy.iOS.Views
                 E85Content = null;
             }
 
+            if (E85ECText != null) {
+                E85ECText.Dispose ();
+                E85ECText = null;
+            }
+
             if (EthenolNeeded != null) {
                 EthenolNeeded.Dispose ();
                 EthenolNeeded = null;
@@ -66,6 +83,11 @@ namespace E85Buddy.iOS.Views
             if (GasE85Content != null) {
                 GasE85Content.Dispose ();
                 GasE85Content = null;
+            }
+
+            if (GasECText != null) {
+                GasECText.Dispose ();
+                GasECText = null;
             }
 
             if (TankCapacityField != null) {
@@ -86,6 +108,11 @@ namespace E85Buddy.iOS.Views
             if (TipLabel != null) {
                 TipLabel.Dispose ();
                 TipLabel = null;
+            }
+
+            if (TPtext != null) {
+                TPtext.Dispose ();
+                TPtext = null;
             }
         }
     }
