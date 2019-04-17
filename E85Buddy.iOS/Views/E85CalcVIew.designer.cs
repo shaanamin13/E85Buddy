@@ -52,10 +52,6 @@ namespace E85Buddy.iOS.Views
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel TipLabel { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField TPtext { get; set; }
 
         void ReleaseDesignerOutlets ()
@@ -103,11 +99,6 @@ namespace E85Buddy.iOS.Views
             if (TargetEthenol != null) {
                 TargetEthenol.Dispose ();
                 TargetEthenol = null;
-            }
-
-            if (TipLabel != null) {
-                TipLabel.Dispose ();
-                TipLabel = null;
             }
 
             if (TPtext != null) {

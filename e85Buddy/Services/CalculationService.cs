@@ -3,16 +3,20 @@ namespace E85Buddy.Services
 {
     public class CalculationService : ICalculationService
     {
-        public int EthCalc(double tankCapacity, double tankPercentage, double e85EthenolContent, double gasEthenolContent, double targetEthenolMix, double currentEthenolMix)
+        public double EthCalc(double tankCapacity, double tankPercentage, double e85EthenolContent, double gasEthenolContent, int targetEthenolMix, int currentEthenolMix)
         {
             double tankAmount = tankCapacity * (tankPercentage / 100);
             double toFill = (tankCapacity - tankAmount);
 
                 
-            int ethenolPercentageNeeded = (int)(((targetEthenolMix) - ((tankPercentage / 100) * tankAmount)) / (toFill/tankCapacity));
+           //int ethenolPercentageNeeded = (int)(((targetEthenolMix) - ((tankPercentage / 100) * tankAmount)) / (toFill/tankCapacity));
 
-           // double gasNeeded, ethNeeded;
-           
+
+            double ethenolPercentageNeeded = (int)(((tankCapacity * targetEthenolMix) - (currentEthenolMix * tankAmount) )/ (toFill));
+            if(currentEthenolMix == 0)
+                ethenolPercentageNeeded = (int)(((tankCapacity * targetEthenolMix) - (1 * tankAmount)) / (toFill));
+            // double gasNeeded, ethNeeded;
+
 
             /*
              * 16 capacity
@@ -26,8 +30,10 @@ namespace E85Buddy.Services
              * tank current = 3 
              *             
             */
-            solution(e85EthenolContent, gasEthenolContent, ethenolPercentageNeeded * toFill);
-            return ethenolPercentageNeeded;
+            //solution(e85EthenolContent, gasEthenolContent, ethenolPercentageNeeded * toFill);
+            double e85Gal = e85ToAdd(e85EthenolContent, ethenolPercentageNeeded * toFill);
+            double gasGal = toFill - e85Gal;
+            return e85Gal;
 
         }
 
@@ -39,7 +45,12 @@ namespace E85Buddy.Services
             throw new NotImplementedException();
         }
 
+        private double e85ToAdd(double e85EthenolContent, double target)
+        {
+            return target / e85EthenolContent;
+        }
 
+       
         static void solution(double a, double b, double n)
         {
 

@@ -84,8 +84,8 @@ namespace E85Buddy.ViewModels
 
         }
 
-        private double _targetEthenolMix;
-        public double TargetEthenolMix
+        private int _targetEthenolMix;
+        public int TargetEthenolMix
         {
             get => _targetEthenolMix;
             set
@@ -97,8 +97,8 @@ namespace E85Buddy.ViewModels
 
         }
 
-        private double _currentEthenolMix;
-        public double CurrentEthenolMix
+        private int _currentEthenolMix;
+        public int CurrentEthenolMix
         {
             get => _currentEthenolMix;
             set
@@ -130,11 +130,14 @@ namespace E85Buddy.ViewModels
             set
             {
                 _ethenolToAdd = value;
-                RaisePropertyChanged(() => EthenolToAdd);
+                RaisePropertyChanged(() => 
+
+
+                EthenolToAdd);
                // Recalculate();
             }
         }
-
+       
 
         private void Recalculate()
         {
