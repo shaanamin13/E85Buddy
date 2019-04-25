@@ -109,6 +109,9 @@
     <PackageReference Include="MvvmCross.Droid.Support.Core.UI">
       <Version>6.2.3</Version>
     </PackageReference>
+    <PackageReference Include="Microcharts">
+      <Version>0.7.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\layout\" />

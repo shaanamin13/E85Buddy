@@ -15,7 +15,7 @@ namespace E85Buddy.iOS
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
             bool result = base.FinishedLaunching(application, launchOptions);
-
+           
             return result;
         }
     }

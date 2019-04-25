@@ -28,10 +28,6 @@ namespace E85Buddy.iOS.Views
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel EthenolNeeded { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UISlider GasE85Content { get; set; }
 
         [Outlet]
@@ -69,11 +65,6 @@ namespace E85Buddy.iOS.Views
             if (E85ECText != null) {
                 E85ECText.Dispose ();
                 E85ECText = null;
-            }
-
-            if (EthenolNeeded != null) {
-                EthenolNeeded.Dispose ();
-                EthenolNeeded = null;
             }
 
             if (GasE85Content != null) {

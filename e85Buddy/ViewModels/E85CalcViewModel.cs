@@ -2,6 +2,8 @@
 using System.Threading.Tasks;
 using E85Buddy.Services;
 using MvvmCross.ViewModels;
+using Microcharts;
+using SkiaSharp;
 
 namespace E85Buddy.ViewModels
 {
@@ -20,13 +22,37 @@ namespace E85Buddy.ViewModels
 
             _tankCapacity = 16;
             _tankPercentage = 10;
-            _e85EthenolContent = 20;
-            _gasEthenolContent = 10;
+            _e85EthenolContent = 85;
+            _gasEthenolContent = 0;
             _targetEthenolMix = 30;
-            _currentEthenolMix = 10;
+            _currentEthenolMix = 0;
 
+            var tank = (float)((float)(TankPercentage/100) * _tankCapacity);
+            var entries = new[]
+            {
+                 new Entry((float)EthenolToAdd)
+                    {
+                    Label = "E85",
+                    ValueLabel = EthenolToAdd.ToString("0.00"),
+                    Color = SKColor.Parse("#E6FF75")
+                    },
+                    new Entry((float)GasToAdd)
+                    {
+                    Label = "Gas",
+                    ValueLabel = GasToAdd.ToString("0.00"),
+                    Color = SKColor.Parse("#5FE8AA")
+                    },new Entry(tank)
+                    {
+                    Label = "Tank",
+                    ValueLabel = tank.ToString("0.00"),
+                    Color = SKColor.Parse("#6593FF")
+                    },
+            };
 
-
+            _donutChart = new DonutChart() { Entries = entries };
+            _donutChart.HoleRadius = .5f;
+            _donutChart.LabelTextSize = 50f;
+            _donutChart.BackgroundColor = SKColor.Parse("#303030");
             //Recalculate();
         }
 
@@ -119,7 +145,6 @@ namespace E85Buddy.ViewModels
             {
                 _gasToAdd = value;
                 RaisePropertyChanged(() => GasToAdd);
-                Recalculate();
             }
         }
 
@@ -134,17 +159,93 @@ namespace E85Buddy.ViewModels
 
 
                 EthenolToAdd);
-               // Recalculate();
             }
         }
-       
+
+        private DonutChart _donutChart;
+        public DonutChart DonutChart
+        {
+            get => _donutChart;
+            set
+            {
+                _donutChart = value;
+
+
+               
+                RaisePropertyChanged(() =>
+
+
+                 DonutChart);
+            }
+        }
+
+        //public Chart DonutChart = new DonutChart()
+        //{
+        //    Entries = new[] {
+
+        //        new Entry(200)
+        //         {
+        //            Label = "E85",
+        //            ValueLabel = "4.88",
+        //            Color = SKColor.Parse("#266489")
+        //            },
+        //            new Entry(400)
+        //            {
+        //            Label = "Gas",
+        //            ValueLabel = "4 Gal",
+        //            Color = SKColor.Parse("#68B9C0")
+        //            },
+        //            new Entry(100)
+        //            {
+        //            Label = "Tank",
+        //            ValueLabel = "8.6",
+        //            Color = SKColor.Parse("#90D585")
+        //            }
+        //    }
+
+        //};
+
+
+         //entries = new[]
+         //{
+               
+            //};
+      
+
 
         private void Recalculate()
         {
            
-            //GasToAdd = _calculationService.GasCalc(_tankCapacity,_tankPercentage,_e85EthenolContent,_gasEthenolContent, _targetEthenolMix, _currentEthenolMix);
+           
             EthenolToAdd = _calculationService.EthCalc(_tankCapacity, _tankPercentage, _e85EthenolContent, _gasEthenolContent, _targetEthenolMix, _currentEthenolMix);
+            GasToAdd = _calculationService.GasCalc(EthenolToAdd);
+            float tank = (float)(((float)_tankPercentage / 100) * _tankCapacity);
+            var entries = new[]
+           {
 
+                    new Entry((float)EthenolToAdd)
+                    {
+                    Label = "E85",
+                    ValueLabel = EthenolToAdd.ToString("0.00"),
+                    Color = SKColor.Parse("#E6FF75")
+                    },
+                    new Entry((float)GasToAdd)
+                    {
+                    Label = "Gas",
+                    ValueLabel = GasToAdd.ToString("0.00"),
+                    Color = SKColor.Parse("#5FE8AA")
+                    },new Entry(tank)
+                    {
+                    Label = "Tank",
+                    ValueLabel = tank.ToString("0.00"),
+                    Color = SKColor.Parse("#6593FF")
+                    },
+            };
+
+            DonutChart = new DonutChart() { Entries = entries };
+            DonutChart.HoleRadius = .5f;
+            DonutChart.LabelTextSize = 50f;
+            DonutChart.BackgroundColor = SKColor.Parse("#303030");
         }
     }
 }

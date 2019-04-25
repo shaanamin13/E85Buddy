@@ -26,6 +26,7 @@ namespace E85Buddy.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Microcharts.Droid.Resource.String.library_name = global::E85Buddy.Droid.Resource.String.library_name;
 			global::MvvmCross.Resource.Attribute.MvxBind = global::E85Buddy.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Resource.Attribute.MvxDropDownItemTemplate = global::E85Buddy.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Resource.Attribute.MvxGroupItemTemplate = global::E85Buddy.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -6299,8 +6300,8 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f090039
 			public const int SYM = 2131296313;
 			
-			// aapt resource value: 0x7f09009e
-			public const int action0 = 2131296414;
+			// aapt resource value: 0x7f0900a6
+			public const int action0 = 2131296422;
 			
 			// aapt resource value: 0x7f09007e
 			public const int action_bar = 2131296382;
@@ -6323,17 +6324,17 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f09005c
 			public const int action_bar_title = 2131296348;
 			
-			// aapt resource value: 0x7f09009b
-			public const int action_container = 2131296411;
+			// aapt resource value: 0x7f0900a3
+			public const int action_container = 2131296419;
 			
 			// aapt resource value: 0x7f09007f
 			public const int action_context_bar = 2131296383;
 			
-			// aapt resource value: 0x7f0900a2
-			public const int action_divider = 2131296418;
+			// aapt resource value: 0x7f0900aa
+			public const int action_divider = 2131296426;
 			
-			// aapt resource value: 0x7f09009c
-			public const int action_image = 2131296412;
+			// aapt resource value: 0x7f0900a4
+			public const int action_image = 2131296420;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -6350,11 +6351,11 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f09005e
 			public const int action_mode_close_button = 2131296350;
 			
-			// aapt resource value: 0x7f09009d
-			public const int action_text = 2131296413;
+			// aapt resource value: 0x7f0900a5
+			public const int action_text = 2131296421;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int actions = 2131296427;
+			// aapt resource value: 0x7f0900b3
+			public const int actions = 2131296435;
 			
 			// aapt resource value: 0x7f09005f
 			public const int activity_chooser_view_content = 2131296351;
@@ -6389,8 +6390,8 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f090065
 			public const int buttonPanel = 2131296357;
 			
-			// aapt resource value: 0x7f09009f
-			public const int cancel_action = 2131296415;
+			// aapt resource value: 0x7f0900a7
+			public const int cancel_action = 2131296423;
 			
 			// aapt resource value: 0x7f090047
 			public const int center = 2131296327;
@@ -6401,11 +6402,14 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f090049
 			public const int center_vertical = 2131296329;
 			
+			// aapt resource value: 0x7f0900a2
+			public const int chartView = 2131296418;
+			
 			// aapt resource value: 0x7f090075
 			public const int checkbox = 2131296373;
 			
-			// aapt resource value: 0x7f0900a7
-			public const int chronometer = 2131296423;
+			// aapt resource value: 0x7f0900af
+			public const int chronometer = 2131296431;
 			
 			// aapt resource value: 0x7f090050
 			public const int clip_horizontal = 2131296336;
@@ -6461,8 +6465,8 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f090032
 			public const int end = 2131296306;
 			
-			// aapt resource value: 0x7f0900ad
-			public const int end_padder = 2131296429;
+			// aapt resource value: 0x7f0900b5
+			public const int end_padder = 2131296437;
 			
 			// aapt resource value: 0x7f090041
 			public const int enterAlways = 2131296321;
@@ -6506,8 +6510,8 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f090064
 			public const int icon = 2131296356;
 			
-			// aapt resource value: 0x7f0900ac
-			public const int icon_group = 2131296428;
+			// aapt resource value: 0x7f0900b4
+			public const int icon_group = 2131296436;
 			
 			// aapt resource value: 0x7f09003c
 			public const int ifRoom = 2131296316;
@@ -6515,8 +6519,8 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f090061
 			public const int image = 2131296353;
 			
-			// aapt resource value: 0x7f0900a8
-			public const int info = 2131296424;
+			// aapt resource value: 0x7f0900b0
+			public const int info = 2131296432;
 			
 			// aapt resource value: 0x7f09005b
 			public const int italic = 2131296347;
@@ -6536,20 +6540,23 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f090018
 			public const int line3 = 2131296280;
 			
+			// aapt resource value: 0x7f09009c
+			public const int linearLayout1 = 2131296412;
+			
 			// aapt resource value: 0x7f09001f
 			public const int listMode = 2131296287;
 			
 			// aapt resource value: 0x7f090063
 			public const int list_item = 2131296355;
 			
-			// aapt resource value: 0x7f0900b0
-			public const int masked = 2131296432;
+			// aapt resource value: 0x7f0900b8
+			public const int masked = 2131296440;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int media_actions = 2131296417;
+			// aapt resource value: 0x7f0900a9
+			public const int media_actions = 2131296425;
 			
-			// aapt resource value: 0x7f0900ae
-			public const int message = 2131296430;
+			// aapt resource value: 0x7f0900b6
+			public const int message = 2131296438;
 			
 			// aapt resource value: 0x7f090033
 			public const int middle = 2131296307;
@@ -6572,14 +6579,14 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f090020
 			public const int normal = 2131296288;
 			
-			// aapt resource value: 0x7f0900aa
-			public const int notification_background = 2131296426;
+			// aapt resource value: 0x7f0900b2
+			public const int notification_background = 2131296434;
 			
-			// aapt resource value: 0x7f0900a4
-			public const int notification_main_column = 2131296420;
+			// aapt resource value: 0x7f0900ac
+			public const int notification_main_column = 2131296428;
 			
-			// aapt resource value: 0x7f0900a3
-			public const int notification_main_column_container = 2131296419;
+			// aapt resource value: 0x7f0900ab
+			public const int notification_main_column_container = 2131296427;
 			
 			// aapt resource value: 0x7f09004e
 			public const int parallax = 2131296334;
@@ -6605,11 +6612,11 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f09004c
 			public const int right = 2131296332;
 			
-			// aapt resource value: 0x7f0900a9
-			public const int right_icon = 2131296425;
+			// aapt resource value: 0x7f0900b1
+			public const int right_icon = 2131296433;
 			
-			// aapt resource value: 0x7f0900a5
-			public const int right_side = 2131296421;
+			// aapt resource value: 0x7f0900ad
+			public const int right_side = 2131296429;
 			
 			// aapt resource value: 0x7f09000c
 			public const int save_image_matrix = 2131296268;
@@ -6668,6 +6675,12 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f09008b
 			public const int search_voice_btn = 2131296395;
 			
+			// aapt resource value: 0x7f09009d
+			public const int seekBar2 = 2131296413;
+			
+			// aapt resource value: 0x7f09009f
+			public const int seekBar3 = 2131296415;
+			
 			// aapt resource value: 0x7f09008c
 			public const int select_dialog_listview = 2131296396;
 			
@@ -6713,8 +6726,8 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f09004d
 			public const int start = 2131296333;
 			
-			// aapt resource value: 0x7f0900a0
-			public const int status_bar_latest_event_content = 2131296416;
+			// aapt resource value: 0x7f0900a8
+			public const int status_bar_latest_event_content = 2131296424;
 			
 			// aapt resource value: 0x7f090078
 			public const int submenuarrow = 2131296376;
@@ -6740,6 +6753,18 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f09006b
 			public const int textSpacerNoTitle = 2131296363;
 			
+			// aapt resource value: 0x7f0900a1
+			public const int textView1 = 2131296417;
+			
+			// aapt resource value: 0x7f09009e
+			public const int textView2 = 2131296414;
+			
+			// aapt resource value: 0x7f0900a0
+			public const int textView3 = 2131296416;
+			
+			// aapt resource value: 0x7f09009b
+			public const int textView4 = 2131296411;
+			
 			// aapt resource value: 0x7f09009a
 			public const int text_input_password_toggle = 2131296410;
 			
@@ -6749,8 +6774,8 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f090015
 			public const int textinput_error = 2131296277;
 			
-			// aapt resource value: 0x7f0900a6
-			public const int time = 2131296422;
+			// aapt resource value: 0x7f0900ae
+			public const int time = 2131296430;
 			
 			// aapt resource value: 0x7f09001c
 			public const int title = 2131296284;
@@ -6797,8 +6822,8 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f090016
 			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0900af
-			public const int visible = 2131296431;
+			// aapt resource value: 0x7f0900b7
+			public const int visible = 2131296439;
 			
 			// aapt resource value: 0x7f09003e
 			public const int withText = 2131296318;
@@ -7167,11 +7192,11 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f0a0010
 			public const int abc_toolbar_collapse_description = 2131361808;
 			
-			// aapt resource value: 0x7f0a002a
-			public const int action_settings = 2131361834;
+			// aapt resource value: 0x7f0a002b
+			public const int action_settings = 2131361835;
 			
-			// aapt resource value: 0x7f0a0029
-			public const int app_name = 2131361833;
+			// aapt resource value: 0x7f0a002a
+			public const int app_name = 2131361834;
 			
 			// aapt resource value: 0x7f0a001e
 			public const int appbar_scrolling_view_behavior = 2131361822;
@@ -7184,6 +7209,9 @@ namespace E85Buddy.Droid
 			
 			// aapt resource value: 0x7f0a0027
 			public const int fab_scroll_shrink_grow_autohide_behavior = 2131361831;
+			
+			// aapt resource value: 0x7f0a0029
+			public const int library_name = 2131361833;
 			
 			// aapt resource value: 0x7f0a0021
 			public const int password_toggle_content_description = 2131361825;

@@ -1,9 +1,13 @@
 E85Buddy
+Microcharts
+Microcharts.Droid
 MvvmCross
 MvvmCross.Droid.Support.Core.UI
 MvvmCross.Droid.Support.Design
 MvvmCross.Droid.Support.Fragment
 MvvmCross.Droid.Support.V7.AppCompat
+SkiaSharp
+SkiaSharp.Views.Android
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
@@ -23,3 +27,4 @@ Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
 Xamarin.Essentials
 netstandard
+System.Collections

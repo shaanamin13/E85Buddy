@@ -1,6 +1,8 @@
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/E85Buddy.Droid.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/E85Buddy.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/Java.Interop.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/Microcharts.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/Microcharts.Droid.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/Mono.Android.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/Mono.Android.Export.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/mscorlib.dll
@@ -9,6 +11,8 @@
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.Design.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.Fragment.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/MvvmCross.Droid.Support.V7.AppCompat.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/SkiaSharp.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/SkiaSharp.Views.Android.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.Core.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.Numerics.dll
@@ -42,5 +46,10 @@
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.ServiceModel.Internals.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.Web.Services.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.Xml.Linq.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.Runtime.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.Collections.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.ValueTuple.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.Runtime.Extensions.dll
+/Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/System.Linq.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/Microsoft.CSharp.dll
 /Users/shaan.amin/Documents/E85Buddy/E85Buddy.Droid/obj/Debug/android/assets/Mono.Security.dll

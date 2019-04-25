@@ -3,47 +3,30 @@ namespace E85Buddy.Services
 {
     public class CalculationService : ICalculationService
     {
+
+        private double toFill;
         public double EthCalc(double tankCapacity, double tankPercentage, double e85EthenolContent, double gasEthenolContent, int targetEthenolMix, int currentEthenolMix)
         {
             double tankAmount = tankCapacity * (tankPercentage / 100);
-            double toFill = (tankCapacity - tankAmount);
+            toFill = (tankCapacity - tankAmount);
 
                 
-           //int ethenolPercentageNeeded = (int)(((targetEthenolMix) - ((tankPercentage / 100) * tankAmount)) / (toFill/tankCapacity));
 
 
             double ethenolPercentageNeeded = (int)(((tankCapacity * targetEthenolMix) - (currentEthenolMix * tankAmount) )/ (toFill));
+
             if(currentEthenolMix == 0)
                 ethenolPercentageNeeded = (int)(((tankCapacity * targetEthenolMix) - (1 * tankAmount)) / (toFill));
-            // double gasNeeded, ethNeeded;
 
-
-            /*
-             * 16 capacity
-             * 60% tank percentage
-             * 30% target ethenol
-             * 10% current ethenol
-             * 
-             * 16 * .6 = 9.6   - tank amount
-             * 16 - 9.6 = 6.4 - toFill
-             * tank target = 16/30
-             * tank current = 3 
-             *             
-            */
-            //solution(e85EthenolContent, gasEthenolContent, ethenolPercentageNeeded * toFill);
+          
             double e85Gal = e85ToAdd(e85EthenolContent, ethenolPercentageNeeded * toFill);
-            double gasGal = toFill - e85Gal;
+            solution(e85EthenolContent/100, gasEthenolContent/100, (targetEthenolMix/100) * toFill);
+            Console.WriteLine("ToFill: " + toFill);
             return e85Gal;
 
         }
 
-      
-  
-
-        public double GasCalc(double tankCapacity, double tankPercentage, double e85EthenolContent, double gasEthenolContent, double targetEthenolMix, double currentEthenolMix)
-        {
-            throw new NotImplementedException();
-        }
+     
 
         private double e85ToAdd(double e85EthenolContent, double target)
         {
@@ -58,22 +41,31 @@ namespace E85Buddy.Services
                                   ", gas% = " + b);
 
             // traverse for all possible values 
-            for (int i = 0; i * a <= n; i++)
+            for (double i = 0; i <= n; i += .1)
             {
-               
-                // check if it is satisfying the 
-                // equation 
-                if ((n - (i * a)) % b > -5 && (n - (i * a)) % b < 5)
+                for(double j = 0; j < n; j += .1)
                 {
-                    Console.WriteLine("x = " + i +
-                                    ", y = " +
-                            (n - (i * a)) / b);
 
-                    return;
+                    if (Math.Abs((a * i) + (b * j) - n) < 1)
+                    {
+                        Console.WriteLine("e85ToAdd = " + i +
+                                    ", GasToAdd = " +
+                            j );
+
+                      
+
+                        return;
+                    }
                 }
+             
             }
 
             Console.Write("No solution");
+        }
+
+        public double GasCalc(double ethenolToAdd)
+        {
+            return toFill - ethenolToAdd;
         }
     }
 }

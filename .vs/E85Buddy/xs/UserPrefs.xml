@@ -1,38 +1,39 @@
-﻿<Properties StartupConfiguration="{D450B372-A783-4B9F-8B7C-CCD3582FC281}|Default">
-  <MonoDevelop.Ide.ItemProperties.E85Buddy.Core.Tests FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="E85Buddy.iOS/Views/E85CalcVIew.cs">
+﻿<Properties StartupConfiguration="{20BCD2C0-9905-41D2-BFA1-63E65EB623B0}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="E85Buddy.Droid/Views/E85CalcView.cs" Line="19" Column="18" />
-      <File FileName="E85Buddy.iOS/Main.cs" Line="12" Column="1" />
-      <File FileName="E85Buddy.iOS/Views/E85CalcVIew.cs" Line="24" Column="39" />
-      <File FileName="E85Buddy.iOS/Views/E85CalcVIew.designer.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="E85Buddy.iOS/Views/E85CalcVIew.xib" NotebookId="1" />
-      <File FileName="E85Buddy/Services/CalculationService.cs" Line="17" Column="88" NotebookId="1" />
-      <File FileName="E85Buddy.iOS/AppDelegate.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="E85Buddy/ViewModels/E85CalcViewModel.cs" Line="166" Column="37" />
+      <File FileName="E85Buddy.iOS/Views/E85CalcVIew.cs" Line="53" Column="59" />
+      <File FileName="E85Buddy.Droid/Views/E85CalcView.cs" Line="56" Column="51" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="E85Buddy" expanded="True">
             <Node name="E85Buddy" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
             </Node>
             <Node name="E85Buddy.Droid" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True">
+                  <Node name="E85CalcView.axml" selected="True" />
+                </Node>
+              </Node>
               <Node name="Views" expanded="True" />
             </Node>
             <Node name="E85Buddy.iOS" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="E85CalcVIew.cs" expanded="True" selected="True" />
-              </Node>
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.E85Buddy.Droid AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.8699255b" />
-  <MonoDevelop.Ide.ItemProperties.E85Buddy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0215466D-1134-4DC6-B41E-9993AA4ACE42" />
+  <MonoDevelop.Ide.ItemProperties.E85Buddy.Droid AndroidDesignerPreferredTheme="Theme.AppCompat.DayNight.NoActionBar" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.ItemProperties.E85Buddy.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0215466D-1134-4DC6-B41E-9993AA4ACE42" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
