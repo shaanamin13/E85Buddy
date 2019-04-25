@@ -13,14 +13,14 @@ namespace E85Buddy.Services
                 
 
 
-            double ethenolPercentageNeeded = (int)(((tankCapacity * targetEthenolMix) - (currentEthenolMix * tankAmount) )/ (toFill));
+            double ethenolPercentageNeeded = (((tankCapacity * targetEthenolMix) - (currentEthenolMix * tankAmount) )/ (toFill));
 
             if(currentEthenolMix == 0)
-                ethenolPercentageNeeded = (int)(((tankCapacity * targetEthenolMix) - (1 * tankAmount)) / (toFill));
+                ethenolPercentageNeeded = (((tankCapacity * targetEthenolMix) - (1 * tankAmount)) / (toFill));
 
           
             double e85Gal = e85ToAdd(e85EthenolContent, ethenolPercentageNeeded * toFill);
-            solution(e85EthenolContent/100, gasEthenolContent/100, (targetEthenolMix/100) * toFill);
+            //solution(e85EthenolContent/100, gasEthenolContent/100, (targetEthenolMix/100) * toFill);
             Console.WriteLine("ToFill: " + toFill);
             return e85Gal;
 

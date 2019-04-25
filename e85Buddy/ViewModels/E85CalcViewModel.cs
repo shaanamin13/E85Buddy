@@ -218,7 +218,10 @@ namespace E85Buddy.ViewModels
            
            
             EthenolToAdd = _calculationService.EthCalc(_tankCapacity, _tankPercentage, _e85EthenolContent, _gasEthenolContent, _targetEthenolMix, _currentEthenolMix);
+            EthenolToAdd *= (((float)_e85EthenolContent / _e85EthenolContent) - ((float)_gasEthenolContent  / _e85EthenolContent));
             GasToAdd = _calculationService.GasCalc(EthenolToAdd);
+
+
             float tank = (float)(((float)_tankPercentage / 100) * _tankCapacity);
             var entries = new[]
            {

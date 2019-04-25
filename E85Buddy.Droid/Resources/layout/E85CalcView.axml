@@ -46,14 +46,16 @@
 			local:MvxBind="Progress TankPercentage"
 			android:progress="25"
 			android:progressTint="#6593FF"
-			android:id="@+id/seekBar2" />
+			android:id="@+id/seekBar2"
+			android:thumbTint="#6593FF" />
 		<TextView
 			android:text="14"
 			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
-			local:MvxBind="Progress TankPercentage"
-			android:id="@+id/textView2" />
+			local:MvxBind="Text TankPercentage"
+			android:id="@+id/textView1"
+			android:textColor="#6593FF" />
 
 
 	</LinearLayout>
@@ -77,15 +79,17 @@
 			android:max="100"
 			local:MvxBind="Progress E85EthenolContent"
 			android:progress="85"
-			android:progressTint="#ff69f0ae"
-			android:id="@+id/seekBar3" />
+			android:progressTint="#E6FF75"
+			android:id="@+id/seekBar3"
+			android:thumbTint="#E6FF75" />
 		<TextView
-			android:text="Small Text"
 			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
-			local:MvxBind="Progress E85EthenolContent"
-			android:id="@+id/textView2" />
+			local:MvxBind="Text E85EthenolContent"
+			android:id="@+id/textView2"
+			android:textColor="#E6FF75"
+			android:text="14" />
 	</LinearLayout>
 	<TextView
 		android:layout_width="match_parent"
@@ -106,14 +110,16 @@
 			android:max="100"
 			local:MvxBind="Progress GasEthenolContent"
 			android:progress="10"
-			android:progressTint="#ff69f0ae" />
+			android:progressTint="#5FE8AA"
+			android:thumbTint="#5FE8AA" />
 		<TextView
-			android:text="Small Text"
 			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
-			local:MvxBind="Progress GasEthenolContent"
-			android:id="@+id/textView3" />
+			local:MvxBind="Text GasEthenolContent"
+			android:id="@+id/textView3"
+			android:textColor="#5FE8AA"
+			android:text="15" />
 
 	</LinearLayout>
 
@@ -144,7 +150,8 @@
 		android:layout_height="52.0dp"
 		local:MvxBind="Text CurrentEthenolMix"
 		android:layout_marginRight="0.0dp"
-		android:layout_marginBottom="22.0dp" />
+		android:layout_marginBottom="22.0dp"
+		android:textColor="#ffffffff" />
 	<microcharts.droid.ChartView
 		android:id="@+id/chartView"
 		android:layout_width="match_parent"

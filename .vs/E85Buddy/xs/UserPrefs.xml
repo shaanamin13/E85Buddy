@@ -1,9 +1,11 @@
-﻿<Properties StartupConfiguration="{20BCD2C0-9905-41D2-BFA1-63E65EB623B0}|Default">
+﻿<Properties StartupConfiguration="{D450B372-A783-4B9F-8B7C-CCD3582FC281}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="E85Buddy/ViewModels/E85CalcViewModel.cs" Line="166" Column="37" />
-      <File FileName="E85Buddy.iOS/Views/E85CalcVIew.cs" Line="53" Column="59" />
-      <File FileName="E85Buddy.Droid/Views/E85CalcView.cs" Line="56" Column="51" />
+      <File FileName="E85Buddy/ViewModels/E85CalcViewModel.cs" Line="220" Column="53" />
+      <File FileName="E85Buddy.iOS/Views/E85CalcVIew.cs" Line="1" Column="1" />
+      <File FileName="E85Buddy.Droid/Views/E85CalcView.cs" Line="1" Column="1" />
+      <File FileName="e85Buddy/Services/ICalculationService.cs" Line="7" Column="16" />
+      <File FileName="E85Buddy/Services/CalculationService.cs" Line="23" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,8 +34,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.E85Buddy.Droid AndroidDesignerPreferredTheme="Theme.AppCompat.DayNight.NoActionBar" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.my_device" />
-  <MonoDevelop.Ide.ItemProperties.E85Buddy.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0215466D-1134-4DC6-B41E-9993AA4ACE42" />
+  <MonoDevelop.Ide.ItemProperties.E85Buddy.Droid AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.ItemProperties.E85Buddy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0215466D-1134-4DC6-B41E-9993AA4ACE42" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

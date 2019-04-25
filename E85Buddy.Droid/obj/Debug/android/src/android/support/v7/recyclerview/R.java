@@ -3153,9 +3153,9 @@ containing a value of this type.
         public static int text2=0x7f09001b;
         public static int textSpacerNoButtons=0x7f09006c;
         public static int textSpacerNoTitle=0x7f09006b;
-        public static int textView1=0x7f0900a1;
-        public static int textView2=0x7f09009e;
-        public static int textView3=0x7f0900a0;
+        public static int textView1=0x7f09009e;
+        public static int textView2=0x7f0900a0;
+        public static int textView3=0x7f0900a1;
         public static int textView4=0x7f09009b;
         public static int text_input_password_toggle=0x7f09009a;
         public static int textinput_counter=0x7f090014;

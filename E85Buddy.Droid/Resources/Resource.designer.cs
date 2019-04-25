@@ -6753,14 +6753,14 @@ namespace E85Buddy.Droid
 			// aapt resource value: 0x7f09006b
 			public const int textSpacerNoTitle = 2131296363;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int textView1 = 2131296417;
-			
 			// aapt resource value: 0x7f09009e
-			public const int textView2 = 2131296414;
+			public const int textView1 = 2131296414;
 			
 			// aapt resource value: 0x7f0900a0
-			public const int textView3 = 2131296416;
+			public const int textView2 = 2131296416;
+			
+			// aapt resource value: 0x7f0900a1
+			public const int textView3 = 2131296417;
 			
 			// aapt resource value: 0x7f09009b
 			public const int textView4 = 2131296411;
