@@ -28,20 +28,20 @@ namespace E85Buddy.Droid.Views
 
 
             var entries = new[]
-         {
-                new Entry(200)
+           {
+                new Entry(4)
                  {
                     Label = "E85",
-                    ValueLabel = "4.04 Gal",
+                    ValueLabel = "4",
                     Color = SKColor.Parse("#266489")
                     },
-                    new Entry(400)
+                    new Entry(4)
                     {
                     Label = "Gas",
                     ValueLabel = "4 Gal",
                     Color = SKColor.Parse("#68B9C0")
                     },
-                    new Entry(100)
+                    new Entry(10)
                     {
                     Label = "Tank",
                     ValueLabel = "8.6",
@@ -51,8 +51,8 @@ namespace E85Buddy.Droid.Views
 
             var chart = new DonutChart() { Entries = entries };
             chart.HoleRadius = .5f;
-            chart.LabelTextSize = 75f;
-
+            chart.LabelTextSize = 50f;
+            chart.BackgroundColor = SKColor.Parse("#303030");
             var chartView = FindViewById<ChartView>(Resource.Id.chartView);
             chartView.Chart = chart;
         }

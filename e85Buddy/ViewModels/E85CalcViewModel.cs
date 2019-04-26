@@ -179,38 +179,7 @@ namespace E85Buddy.ViewModels
             }
         }
 
-        //public Chart DonutChart = new DonutChart()
-        //{
-        //    Entries = new[] {
 
-        //        new Entry(200)
-        //         {
-        //            Label = "E85",
-        //            ValueLabel = "4.88",
-        //            Color = SKColor.Parse("#266489")
-        //            },
-        //            new Entry(400)
-        //            {
-        //            Label = "Gas",
-        //            ValueLabel = "4 Gal",
-        //            Color = SKColor.Parse("#68B9C0")
-        //            },
-        //            new Entry(100)
-        //            {
-        //            Label = "Tank",
-        //            ValueLabel = "8.6",
-        //            Color = SKColor.Parse("#90D585")
-        //            }
-        //    }
-
-        //};
-
-
-         //entries = new[]
-         //{
-               
-            //};
-      
 
 
         private void Recalculate()
@@ -218,7 +187,7 @@ namespace E85Buddy.ViewModels
            
            
             EthenolToAdd = _calculationService.EthCalc(_tankCapacity, _tankPercentage, _e85EthenolContent, _gasEthenolContent, _targetEthenolMix, _currentEthenolMix);
-            EthenolToAdd *= (((float)_e85EthenolContent / _e85EthenolContent) - ((float)_gasEthenolContent  / _e85EthenolContent));
+            //EthenolToAdd *= (((float)_e85EthenolContent / _e85EthenolContent) - ((float)_gasEthenolContent  / _e85EthenolContent));
             GasToAdd = _calculationService.GasCalc(EthenolToAdd);
 
 
